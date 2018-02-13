@@ -12,6 +12,7 @@ def extract_repeat_donors(record_row,final_set,percent):
     for all candidates by zipcode
     :param percent (int): Percentile to be used in calculations
     :return: repeated_donations (np.ndarray): Array of values to be written out to repeat_donors.txt
+    :return: final_set (pandas DataFrame): dataframe with new record added for following analysis of subsequent rows
     """
 
     record_row['COUNT'] += 1
@@ -32,4 +33,4 @@ def extract_repeat_donors(record_row,final_set,percent):
     repeated_donations = np.asarray([record_row['CMTE_ID'], record_row['ZIP_CODE'], record_row['TRANS_DT'],
     str(int(round(percentile, 0))),str(int(sum(agg_donations.TRANS_AMT))), str(int(sum(agg_donations.COUNT)))])
 
-    return repeated_donations
+    return repeated_donations, final_set
