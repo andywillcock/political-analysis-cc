@@ -1,16 +1,16 @@
 # Table of Contents
-1. [Introduction](README.md#introduction)
-2. [Challenge summary](README.md#challenge-summary)
-3. [Details of challenge](README.md#details-of-challenge)
-4. [Input files](README.md#input-files)
-5. [Output file](README.md#output-file)
-6. [Percentile computation](README.md#percentile-computation)
-7. [Example](README.md#example)
-8. [Writing clean, scalable and well-tested code](README.md#writing-clean-scalable-and-well-tested-code)
-9. [Repo directory structure](README.md#repo-directory-structure)
-10. [Testing your directory structure and output format](README.md#testing-your-directory-structure-and-output-format)
-11. [Instructions to submit your solution](README.md#instructions-to-submit-your-solution)
-12. [FAQ](README.md#faq)
+1. [Introduction](Insight_README.md#introduction)
+2. [Challenge summary](Insight_README.md#challenge-summary)
+3. [Details of challenge](Insight_README.md#details-of-challenge)
+4. [Input files](Insight_README.md#input-files)
+5. [Output file](Insight_README.md#output-file)
+6. [Percentile computation](Insight_README.md#percentile-computation)
+7. [Example](Insight_README.md#example)
+8. [Writing clean, scalable and well-tested code](Insight_README.md#writing-clean-scalable-and-well-tested-code)
+9. [Repo directory structure](Insight_README.md#repo-directory-structure)
+10. [Testing your directory structure and output format](Insight_README.md#testing-your-directory-structure-and-output-format)
+11. [Instructions to submit your solution](Insight_README.md#instructions-to-submit-your-solution)
+12. [FAQ](Insight_README.md#faq)
 
 # Introduction
 You’re a data engineer working for political consultants whose clients are cash-strapped political candidates. They've asked for help analyzing loyalty trends in campaign contributions, namely identifying areas of repeat donors and calculating how much they're spending.
