@@ -27,7 +27,8 @@ def extract_repeat_donors(record_row,final_set,percent):
     donation_amounts = sorted(agg_donations.TRANS_AMT.tolist())
 
     # Finds the donation closest to the percentile value calculated using the nearest rank method
-    percentile = donation_amounts[int(round((percent/100)*len(donation_amounts)))]
+    percentile = donation_amounts[int(round((percent/100)*(len(donation_amounts)-1)))]
+
 
     # Create a numpy array with all relevant information for writing to the ouput file.
     repeated_donations = np.asarray([record_row['CMTE_ID'], record_row['ZIP_CODE'], record_row['TRANS_DT'],
