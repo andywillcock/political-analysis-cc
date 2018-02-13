@@ -1,7 +1,6 @@
 from data_checks import *
 from extract_repeat_donors import *
 import argparse
-
 import numpy as np
 import pandas as pd
 
@@ -20,7 +19,7 @@ def find_repeat_donors(input_file,percentile_file,output_file):
 
     # Open input file and read in as stream of data line by line
     with open(percentile_file,'r') as percent:
-        percentile = int(percent.read())
+        percentile = float(percent.read())
     with open(input_file, 'r') as data:
 
         donors = pd.DataFrame(columns=records_names)
