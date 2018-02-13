@@ -2,6 +2,9 @@ import numpy as np
 
 def extract_repeat_donors(record_row,final_set,percent):
     """
+    Uses a valid record row to find previous donations for the same candidate in the same zip code and year. Then
+    calculates the total amount of donation dollars, the count of donations, and the nearest rank donation to the
+    percentile provided by percentile.txt
 
     :param record_row (dict): Row of data checked for validity by data_check(), stored as a dictionary with column names as keys
     and data as values
