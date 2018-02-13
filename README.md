@@ -29,3 +29,7 @@ numpy
 pandas
 
 argparse
+
+##### Run Instructions
+
+Usage be seen in run.sh or by using "python donation-analytics.py -h" from the src directory in the commandline
